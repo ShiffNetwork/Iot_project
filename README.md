@@ -2,7 +2,16 @@ Voici comment fonctionne notre projet. Avant tout vérifier bien que vous êtes 
 
 1- faites un git clone avec l'url du projet
 2- faite npm install à la racine du projet
-3- Faire npm start pour lancer le server node
-4- Dans un nouveau terminal faire node index.js , Pour lancer le script des donnée
+3- Créer un fichier .env et mettez les données suivant
 
-Les Variables d'environnement sont dans le fichier .env, vous avez aussi un screen de notre dashboard et un fichier json de l'export de notre dashboard merci
+INFLUX_URL = http://localhost:8086/
+INFLUX_TOKEN = OgOsEFhD5cKW-N5P1S1fcUJTvFDBab3wixZdc7qwp5kptMae4xINB9M1rzDeBDQ_nKMHxQX7NBh-9b7JIdxQSg==
+INFLUX_ORG = Keyce
+INFLUX_BUCKET = Keyce
+
+
+4- Faire npm start pour lancer le server node
+
+5- Dans un nouveau terminal faire node index.js , Pour lancer le script des donnée
+
+ vous avez aussi un screen de notre dashboard et un fichier json de l'export de notre dashboard merci
